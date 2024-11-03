@@ -2,7 +2,14 @@
 export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["font-sans"],
+      },
+    },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
 };

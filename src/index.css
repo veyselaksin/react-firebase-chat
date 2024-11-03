@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 body {
-  body {
-    background-image: url("./bg.jpg");
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Ensure the body takes the full height of the viewport */
-    margin: 0; /* Remove default margin */
-    color: white;
-  }
+  background-image: url("./bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
